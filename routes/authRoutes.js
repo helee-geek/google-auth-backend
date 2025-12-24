@@ -8,8 +8,8 @@ const {
   logout, 
   selectRole
 } = require('../controllers/authController');
-const { protect } = require('../src/middleware/authMiddleware');
-const { requireRole } = require('../src/middleware/roleCheckMiddleware');
+const { protect } = require('../middleware/authMiddleware');
+const { requireRole } = require('../middleware/roleCheckMiddleware');
 
 // ==================== GOOGLE ROUTES ====================
 
