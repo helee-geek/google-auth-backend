@@ -41,7 +41,7 @@ app.use(passport.initialize());
 app.use('/api/auth', authRoutes);
 
 // Home route
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html>
