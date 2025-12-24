@@ -1,4 +1,4 @@
-const { verifyToken } = require('../../utils/jwtHelper');
+const { verifyToken } = require('../utils/jwtHelper');
 const User = require('../models/User');
 
 exports.protect = async (req, res, next) => {
